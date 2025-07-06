@@ -1,0 +1,23 @@
+[0.018s] Invoking command in '/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xiaofeiyu/桌面/chapt_ws/install/tf:/home/xiaofeiyu/桌面/chapt_ws/src/tf/install/tf:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/chapt_ws/build/mbot_description -- -j4 -l4
+[0.222s] Invoked command in '/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xiaofeiyu/桌面/chapt_ws/install/tf:/home/xiaofeiyu/桌面/chapt_ws/src/tf/install/tf:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/chapt_ws/build/mbot_description -- -j4 -l4
+[0.230s] Invoking command in '/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xiaofeiyu/桌面/chapt_ws/install/tf:/home/xiaofeiyu/桌面/chapt_ws/src/tf/install/tf:/opt/ros/humble /usr/bin/cmake --install /home/xiaofeiyu/桌面/chapt_ws/build/mbot_description
+[0.236s] -- Install configuration: ""
+[0.237s] -- Execute custom install script
+[0.237s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/urdf/mbot_base.urdf
+[0.237s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/launch/mbot_base.launch.py
+[0.242s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/ament_index/resource_index/package_run_dependencies/mbot_description
+[0.242s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/ament_index/resource_index/parent_prefix_path/mbot_description
+[0.242s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/environment/ament_prefix_path.sh
+[0.242s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/environment/ament_prefix_path.dsv
+[0.242s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/environment/path.sh
+[0.243s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/environment/path.dsv
+[0.243s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/local_setup.bash
+[0.243s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/local_setup.sh
+[0.243s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/local_setup.zsh
+[0.243s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/local_setup.dsv
+[0.243s] -- Symlinking: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/package.dsv
+[0.249s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/ament_index/resource_index/packages/mbot_description
+[0.249s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/cmake/mbot_descriptionConfig.cmake
+[0.249s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/cmake/mbot_descriptionConfig-version.cmake
+[0.250s] -- Up-to-date symlink: /home/xiaofeiyu/桌面/chapt_ws/install/mbot_description/share/mbot_description/package.xml
+[0.251s] Invoked command in '/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xiaofeiyu/桌面/chapt_ws/install/tf:/home/xiaofeiyu/桌面/chapt_ws/src/tf/install/tf:/opt/ros/humble /usr/bin/cmake --install /home/xiaofeiyu/桌面/chapt_ws/build/mbot_description

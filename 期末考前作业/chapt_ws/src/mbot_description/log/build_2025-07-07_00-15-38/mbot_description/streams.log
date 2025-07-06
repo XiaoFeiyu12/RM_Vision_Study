@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description -- -j4 -l4
+[0.049s] Invoked command in '/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description -- -j4 -l4
+[0.060s] Invoking command in '/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description
+[0.066s] -- Install configuration: ""
+[0.066s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/urdf
+[0.066s] -- Installing: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/urdf/sizurobot.urdf
+[0.067s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/meshes
+[0.067s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/launch
+[0.067s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/launch/mbot_base.launch.py
+[0.067s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/config
+[0.067s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/ament_index/resource_index/package_run_dependencies/mbot_description
+[0.067s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/ament_index/resource_index/parent_prefix_path/mbot_description
+[0.067s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/environment/ament_prefix_path.sh
+[0.067s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/environment/ament_prefix_path.dsv
+[0.067s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/environment/path.sh
+[0.067s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/environment/path.dsv
+[0.068s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/local_setup.bash
+[0.068s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/local_setup.sh
+[0.068s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/local_setup.zsh
+[0.068s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/local_setup.dsv
+[0.068s] -- Installing: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/package.dsv
+[0.068s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/ament_index/resource_index/packages/mbot_description
+[0.068s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/cmake/mbot_descriptionConfig.cmake
+[0.068s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/cmake/mbot_descriptionConfig-version.cmake
+[0.069s] -- Up-to-date: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/package.xml
+[0.073s] Invoked command in '/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description

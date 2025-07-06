@@ -1,0 +1,13 @@
+tf_broadcaster:
+  ros__parameters:
+    camera_to_gimbal:
+      translation:
+        x: 0.1
+        y: 0.0
+        z: 0.01
+      rotation:
+        roll: 0.0
+        pitch: 0.0
+        yaw: 0.0
+
+

@@ -1,0 +1,7 @@
+gimbal_to_base:
+  ros__parameters:
+    target_to_map:
+      translation:
+        x: -6.0
+        y: -5.0
+        z: 0.0
