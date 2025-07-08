@@ -1,0 +1,2 @@
+Invoking command in '/home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener -- -j4 -l4
+Invoked command in '/home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener -- -j4 -l4

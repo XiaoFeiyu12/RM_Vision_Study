@@ -1,0 +1,43 @@
+[0.011s] Invoking command in '/home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener -- -j4 -l4
+[0.031s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.159s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.162s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.166s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.184s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.206s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.207s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.355s] WARNING: Package name "Publisher2Listener" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.366s] -- Configuring done
+[0.375s] -- Generating done
+[0.379s] -- Build files have been written to: /home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener
+[0.409s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+[0.409s] [ 50%] [32mBuilding CXX object CMakeFiles/listener_node.dir/src/listener.cpp.o[0m
+[3.807s] [ 75%] [32m[1mLinking CXX executable publisher_node[0m
+[3.967s] [ 75%] Built target publisher_node
+[6.237s] [100%] [32m[1mLinking CXX executable listener_node[0m
+[6.525s] [100%] Built target listener_node
+[6.536s] Invoked command in '/home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener -- -j4 -l4
+[6.542s] Invoking command in '/home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener
+[6.548s] -- Install configuration: ""
+[6.548s] -- Installing: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/lib/Publisher2Listener/publisher_node
+[6.550s] -- Set runtime path of "/home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/lib/Publisher2Listener/publisher_node" to ""
+[6.550s] -- Installing: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/lib/Publisher2Listener/listener_node
+[6.556s] -- Set runtime path of "/home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/lib/Publisher2Listener/listener_node" to ""
+[6.556s] -- Up-to-date: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/ament_index/resource_index/package_run_dependencies/Publisher2Listener
+[6.556s] -- Installing: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/ament_index/resource_index/parent_prefix_path/Publisher2Listener
+[6.556s] -- Up-to-date: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/environment/ament_prefix_path.sh
+[6.556s] -- Installing: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/environment/ament_prefix_path.dsv
+[6.556s] -- Up-to-date: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/environment/path.sh
+[6.557s] -- Installing: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/environment/path.dsv
+[6.557s] -- Up-to-date: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/local_setup.bash
+[6.557s] -- Up-to-date: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/local_setup.sh
+[6.557s] -- Up-to-date: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/local_setup.zsh
+[6.557s] -- Installing: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/local_setup.dsv
+[6.558s] -- Installing: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/package.dsv
+[6.558s] -- Up-to-date: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/ament_index/resource_index/packages/Publisher2Listener
+[6.558s] -- Up-to-date: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/cmake/Publisher2ListenerConfig.cmake
+[6.558s] -- Up-to-date: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/cmake/Publisher2ListenerConfig-version.cmake
+[6.558s] -- Up-to-date: /home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/package.xml
+[6.560s] Invoked command in '/home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener

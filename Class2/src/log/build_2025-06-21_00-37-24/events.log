@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000878] (Publisher2Listener) JobQueued: {'identifier': 'Publisher2Listener', 'dependencies': OrderedDict()}
+[0.000938] (Publisher2Listener) JobStarted: {'identifier': 'Publisher2Listener'}
+[0.007776] (Publisher2Listener) JobProgress: {'identifier': 'Publisher2Listener', 'progress': 'cmake'}
+[0.008952] (Publisher2Listener) JobProgress: {'identifier': 'Publisher2Listener', 'progress': 'build'}
+[0.009576] (Publisher2Listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener', '--', '-j4', '-l4'], 'cwd': '/home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'xiaofeiyu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xiaofeiyu'), ('OLDPWD', '/home/xiaofeiyu/桌面/学习/1-2weeks'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1056'), ('SYSTEMD_EXEC_PID', '1489'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8467'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xiaofeiyu/桌面/学习/1-2weeks/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xiaofeiyu'), ('JOURNAL_STREAM', '8:17336'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xiaofeiyu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xiaofeiyu-virtual-machine:@/tmp/.ICE-unix/1170,unix/xiaofeiyu-virtual-machine:/tmp/.ICE-unix/1170'), ('INVOCATION_ID', '9cc28270d3764a05a658e23a29473c4a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QVMD82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fd64b9f4-a381-48c2-b8e4-7068e40e8728'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener:/opt/ros/humble')]), 'shell': False}
+[0.032256] (Publisher2Listener) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099692] (-) TimerEvent: {}
+[0.159604] (Publisher2Listener) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.162723] (Publisher2Listener) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.166739] (Publisher2Listener) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.173817] (Publisher2Listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.184849] (Publisher2Listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199869] (-) TimerEvent: {}
+[0.206810] (Publisher2Listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.207643] (Publisher2Listener) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.277532] (Publisher2Listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300053] (-) TimerEvent: {}
+[0.355624] (Publisher2Listener) StderrLine: {'line': b'WARNING: Package name "Publisher2Listener" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[0.366618] (Publisher2Listener) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.375932] (Publisher2Listener) StdoutLine: {'line': b'-- Generating done\n'}
+[0.379392] (Publisher2Listener) StdoutLine: {'line': b'-- Build files have been written to: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/build/Publisher2Listener\n'}
+[0.400173] (-) TimerEvent: {}
+[0.409473] (Publisher2Listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.409757] (Publisher2Listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener_node.dir/src/listener.cpp.o\x1b[0m\n'}
+[0.500290] (-) TimerEvent: {}
+[0.600602] (-) TimerEvent: {}
+[0.701017] (-) TimerEvent: {}
+[0.801288] (-) TimerEvent: {}
+[0.901655] (-) TimerEvent: {}
+[1.002134] (-) TimerEvent: {}
+[1.102476] (-) TimerEvent: {}
+[1.202795] (-) TimerEvent: {}
+[1.303155] (-) TimerEvent: {}
+[1.403492] (-) TimerEvent: {}
+[1.503948] (-) TimerEvent: {}
+[1.604368] (-) TimerEvent: {}
+[1.704900] (-) TimerEvent: {}
+[1.805325] (-) TimerEvent: {}
+[1.905820] (-) TimerEvent: {}
+[2.006274] (-) TimerEvent: {}
+[2.106848] (-) TimerEvent: {}
+[2.207389] (-) TimerEvent: {}
+[2.307794] (-) TimerEvent: {}
+[2.408167] (-) TimerEvent: {}
+[2.508452] (-) TimerEvent: {}
+[2.608918] (-) TimerEvent: {}
+[2.709474] (-) TimerEvent: {}
+[2.809929] (-) TimerEvent: {}
+[2.910372] (-) TimerEvent: {}
+[3.010694] (-) TimerEvent: {}
+[3.110993] (-) TimerEvent: {}
+[3.211292] (-) TimerEvent: {}
+[3.311594] (-) TimerEvent: {}
+[3.411889] (-) TimerEvent: {}
+[3.512392] (-) TimerEvent: {}
+[3.612968] (-) TimerEvent: {}
+[3.713574] (-) TimerEvent: {}
+[3.807390] (Publisher2Listener) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher_node\x1b[0m\n'}
+[3.814236] (-) TimerEvent: {}
+[3.914582] (-) TimerEvent: {}
+[3.967741] (Publisher2Listener) StdoutLine: {'line': b'[ 75%] Built target publisher_node\n'}
+[4.014696] (-) TimerEvent: {}
+[4.115117] (-) TimerEvent: {}
+[4.215683] (-) TimerEvent: {}
+[4.316124] (-) TimerEvent: {}
+[4.416496] (-) TimerEvent: {}
+[4.516939] (-) TimerEvent: {}
+[4.617306] (-) TimerEvent: {}
+[4.717837] (-) TimerEvent: {}
+[4.818395] (-) TimerEvent: {}
+[4.918749] (-) TimerEvent: {}
+[5.019196] (-) TimerEvent: {}
+[5.119641] (-) TimerEvent: {}
+[5.220140] (-) TimerEvent: {}
+[5.320555] (-) TimerEvent: {}
+[5.420931] (-) TimerEvent: {}
+[5.521387] (-) TimerEvent: {}
+[5.624177] (-) TimerEvent: {}
+[5.725662] (-) TimerEvent: {}
+[5.825998] (-) TimerEvent: {}
+[5.926455] (-) TimerEvent: {}
+[6.027002] (-) TimerEvent: {}
+[6.127517] (-) TimerEvent: {}
+[6.227902] (-) TimerEvent: {}
+[6.238337] (Publisher2Listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener_node\x1b[0m\n'}
+[6.328007] (-) TimerEvent: {}
+[6.428317] (-) TimerEvent: {}
+[6.526072] (Publisher2Listener) StdoutLine: {'line': b'[100%] Built target listener_node\n'}
+[6.528389] (-) TimerEvent: {}
+[6.536765] (Publisher2Listener) CommandEnded: {'returncode': 0}
+[6.537039] (Publisher2Listener) JobProgress: {'identifier': 'Publisher2Listener', 'progress': 'install'}
+[6.543224] (Publisher2Listener) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener'], 'cwd': '/home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'xiaofeiyu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xiaofeiyu'), ('OLDPWD', '/home/xiaofeiyu/桌面/学习/1-2weeks'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1056'), ('SYSTEMD_EXEC_PID', '1489'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8467'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xiaofeiyu/桌面/学习/1-2weeks/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xiaofeiyu'), ('JOURNAL_STREAM', '8:17336'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xiaofeiyu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xiaofeiyu-virtual-machine:@/tmp/.ICE-unix/1170,unix/xiaofeiyu-virtual-machine:/tmp/.ICE-unix/1170'), ('INVOCATION_ID', '9cc28270d3764a05a658e23a29473c4a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QVMD82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fd64b9f4-a381-48c2-b8e4-7068e40e8728'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xiaofeiyu/桌面/学习/1-2weeks/src/build/Publisher2Listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xiaofeiyu/桌面/学习/1-2weeks/src/install/Publisher2Listener:/opt/ros/humble')]), 'shell': False}
+[6.549189] (Publisher2Listener) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.549380] (Publisher2Listener) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/lib/Publisher2Listener/publisher_node\n'}
+[6.550776] (Publisher2Listener) StdoutLine: {'line': b'-- Set runtime path of "/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/lib/Publisher2Listener/publisher_node" to ""\n'}
+[6.550869] (Publisher2Listener) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/lib/Publisher2Listener/listener_node\n'}
+[6.556611] (Publisher2Listener) StdoutLine: {'line': b'-- Set runtime path of "/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/lib/Publisher2Listener/listener_node" to ""\n'}
+[6.556750] (Publisher2Listener) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/ament_index/resource_index/package_run_dependencies/Publisher2Listener\n'}
+[6.556851] (Publisher2Listener) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/ament_index/resource_index/parent_prefix_path/Publisher2Listener\n'}
+[6.556963] (Publisher2Listener) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/environment/ament_prefix_path.sh\n'}
+[6.557022] (Publisher2Listener) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/environment/ament_prefix_path.dsv\n'}
+[6.557377] (Publisher2Listener) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/environment/path.sh\n'}
+[6.557496] (Publisher2Listener) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/environment/path.dsv\n'}
+[6.557808] (Publisher2Listener) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/local_setup.bash\n'}
+[6.557942] (Publisher2Listener) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/local_setup.sh\n'}
+[6.558010] (Publisher2Listener) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/local_setup.zsh\n'}
+[6.558111] (Publisher2Listener) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/local_setup.dsv\n'}
+[6.558445] (Publisher2Listener) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/package.dsv\n'}
+[6.558633] (Publisher2Listener) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/ament_index/resource_index/packages/Publisher2Listener\n'}
+[6.558786] (Publisher2Listener) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/cmake/Publisher2ListenerConfig.cmake\n'}
+[6.558866] (Publisher2Listener) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/cmake/Publisher2ListenerConfig-version.cmake\n'}
+[6.558954] (Publisher2Listener) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/\xe5\xad\xa6\xe4\xb9\xa0/1-2weeks/src/install/Publisher2Listener/share/Publisher2Listener/package.xml\n'}
+[6.560345] (Publisher2Listener) CommandEnded: {'returncode': 0}
+[6.575245] (Publisher2Listener) JobEnded: {'identifier': 'Publisher2Listener', 'rc': 0}
+[6.576053] (-) EventReactorShutdown: {}
