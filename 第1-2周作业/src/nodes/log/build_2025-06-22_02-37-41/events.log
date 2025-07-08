@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000284] (nodes) JobQueued: {'identifier': 'nodes', 'dependencies': OrderedDict()}
+[0.000324] (nodes) JobStarted: {'identifier': 'nodes'}
+[0.007673] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'cmake'}
+[0.008373] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'build'}
+[0.009225] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes', '--', '-j4', '-l4'], 'cwd': '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'xiaofeiyu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xiaofeiyu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/xiaofeiyu/桌面/study/第1-2周作业'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1098'), ('SYSTEMD_EXEC_PID', '1288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '130718'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xiaofeiyu'), ('JOURNAL_STREAM', '8:17206'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xiaofeiyu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xiaofeiyu-virtual-machine:@/tmp/.ICE-unix/1239,unix/xiaofeiyu-virtual-machine:/tmp/.ICE-unix/1239'), ('INVOCATION_ID', '1160ce56c049478892c025b25f36e62c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5TGA82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6b4d8dede2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes:/opt/ros/humble')]), 'shell': False}
+[0.064409] (nodes) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_node\x1b[0m\n'}
+[0.092654] (nodes) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o\x1b[0m\n'}
+[0.099208] (-) TimerEvent: {}
+[0.199780] (-) TimerEvent: {}
+[0.300232] (-) TimerEvent: {}
+[0.400971] (-) TimerEvent: {}
+[0.502065] (-) TimerEvent: {}
+[0.602593] (-) TimerEvent: {}
+[0.703139] (-) TimerEvent: {}
+[0.803779] (-) TimerEvent: {}
+[0.904375] (-) TimerEvent: {}
+[1.004990] (-) TimerEvent: {}
+[1.105711] (-) TimerEvent: {}
+[1.207282] (-) TimerEvent: {}
+[1.307876] (-) TimerEvent: {}
+[1.408628] (-) TimerEvent: {}
+[1.509382] (-) TimerEvent: {}
+[1.609965] (-) TimerEvent: {}
+[1.710551] (-) TimerEvent: {}
+[1.811069] (-) TimerEvent: {}
+[1.911836] (-) TimerEvent: {}
+[2.012444] (-) TimerEvent: {}
+[2.113074] (-) TimerEvent: {}
+[2.213697] (-) TimerEvent: {}
+[2.314266] (-) TimerEvent: {}
+[2.380477] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.381098] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.381259] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.381315] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.381368] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.381421] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.381473] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.381525] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.381576] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.381629] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.381689] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.381742] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialNode::receive_from_serial()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.381795] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:22:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SerialNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.381849] (nodes) StderrLine: {'line': b'   22 |             RCLCPP_WARN(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(),"\xe4\xb8\xb2\xe5\x8f\xa3\xe6\x89\x93\xe5\xbc\x80\xe5\xa4\xb1\xe8\xb4\xa5\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe6\x8e\xa5\xe6\x94\xb6\xe6\x95\xb0\xe6\x8d\xae");\n'}
+[2.381937] (nodes) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.381991] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:22:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SerialNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.382045] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:22:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.382097] (nodes) StderrLine: {'line': b'   22 |             \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->getlogger(),"\xe4\xb8\xb2\xe5\x8f\xa3\xe6\x89\x93\xe5\xbc\x80\xe5\xa4\xb1\xe8\xb4\xa5\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe6\x8e\xa5\xe6\x94\xb6\xe6\x95\xb0\xe6\x8d\xae");\n'}
+[2.382150] (nodes) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.382202] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:22:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.382253] (nodes) StderrLine: {'line': b'   22 |             \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->getlogger(),"\xe4\xb8\xb2\xe5\x8f\xa3\xe6\x89\x93\xe5\xbc\x80\xe5\xa4\xb1\xe8\xb4\xa5\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe6\x8e\xa5\xe6\x94\xb6\xe6\x95\xb0\xe6\x8d\xae");\n'}
+[2.382303] (nodes) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.382355] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:22:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.382406] (nodes) StderrLine: {'line': b'   22 |             \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->getlogger(),"\xe4\xb8\xb2\xe5\x8f\xa3\xe6\x89\x93\xe5\xbc\x80\xe5\xa4\xb1\xe8\xb4\xa5\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe6\x8e\xa5\xe6\x94\xb6\xe6\x95\xb0\xe6\x8d\xae");\n'}
+[2.382456] (nodes) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.382507] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.382581] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.382639] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.382691] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.382742] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.382793] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.382850] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.382909] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.382961] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.383019] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.383070] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.383122] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.383175] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:22:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SerialNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.383228] (nodes) StderrLine: {'line': b'   22 |             RCLCPP_WARN(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(),"\xe4\xb8\xb2\xe5\x8f\xa3\xe6\x89\x93\xe5\xbc\x80\xe5\xa4\xb1\xe8\xb4\xa5\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe6\x8e\xa5\xe6\x94\xb6\xe6\x95\xb0\xe6\x8d\xae");\n'}
+[2.383280] (nodes) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.383329] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:22:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SerialNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.383379] (nodes) StderrLine: {'line': b'   22 |             RCLCPP_WARN(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(),"\xe4\xb8\xb2\xe5\x8f\xa3\xe6\x89\x93\xe5\xbc\x80\xe5\xa4\xb1\xe8\xb4\xa5\xef\xbc\x8c\xe6\x97\xa0\xe6\xb3\x95\xe6\x8e\xa5\xe6\x94\xb6\xe6\x95\xb0\xe6\x8d\xae");\n'}
+[2.383429] (nodes) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.383478] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:28:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.383529] (nodes) StderrLine: {'line': b'   28 |             std::vector<uint8_t> new_data=port->receive(\x1b[01;31m\x1b[K1024\x1b[m\x1b[K); //\xe6\x8e\xa5\xe6\x94\xb6\xe6\x95\xb0\xe6\x8d\xae\n'}
+[2.383581] (nodes) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.383629] (nodes) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.383680] (nodes) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.383730] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/serial_driver/serial_driver.hpp:22\x1b[m\x1b[K,\n'}
+[2.383779] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:5\x1b[m\x1b[K:\n'}
+[2.383829] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/serial_driver/serial_port.hpp:208:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Ksize_t drivers::serial_driver::SerialPort::receive(std::vector<unsigned char, std::allocator<unsigned char> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.389920] (nodes) StderrLine: {'line': b'  208 |   size_t receive(\x1b[01;36m\x1b[Kstd::vector<uint8_t> & buff\x1b[m\x1b[K);\n'}
+[2.389981] (nodes) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.390069] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.390152] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.390235] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.390369] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.390425] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.390476] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.390526] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.390575] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.390625] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.390674] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.390722] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.390775] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:38:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SerialNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.390827] (nodes) StderrLine: {'line': b'   38 |             RCLCPP_ERROR(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(),"\xe4\xb8\xb2\xe5\x8f\xa3\xe6\x8e\xa5\xe6\x94\xb6\xe9\x94\x99\xe8\xaf\xaf");;\n'}
+[2.390884] (nodes) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.390935] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:38:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SerialNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.390987] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:38:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.391038] (nodes) StderrLine: {'line': b'   38 |             \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->getlogger(),"\xe4\xb8\xb2\xe5\x8f\xa3\xe6\x8e\xa5\xe6\x94\xb6\xe9\x94\x99\xe8\xaf\xaf");;\n'}
+[2.391088] (nodes) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.391137] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:38:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.391186] (nodes) StderrLine: {'line': b'   38 |             \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->getlogger(),"\xe4\xb8\xb2\xe5\x8f\xa3\xe6\x8e\xa5\xe6\x94\xb6\xe9\x94\x99\xe8\xaf\xaf");;\n'}
+[2.391235] (nodes) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.391282] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:38:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.391331] (nodes) StderrLine: {'line': b'   38 |             \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->getlogger(),"\xe4\xb8\xb2\xe5\x8f\xa3\xe6\x8e\xa5\xe6\x94\xb6\xe9\x94\x99\xe8\xaf\xaf");;\n'}
+[2.391417] (nodes) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.393914] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.393982] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.394081] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.394180] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.394278] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.394376] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.394474] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.394571] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.394669] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.394767] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.394878] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.394979] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.395078] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:38:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SerialNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.395180] (nodes) StderrLine: {'line': b'   38 |             RCLCPP_ERROR(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(),"\xe4\xb8\xb2\xe5\x8f\xa3\xe6\x8e\xa5\xe6\x94\xb6\xe9\x94\x99\xe8\xaf\xaf");;\n'}
+[2.395279] (nodes) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.395377] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:38:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SerialNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.395476] (nodes) StderrLine: {'line': b'   38 |             RCLCPP_ERROR(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(),"\xe4\xb8\xb2\xe5\x8f\xa3\xe6\x8e\xa5\xe6\x94\xb6\xe9\x94\x99\xe8\xaf\xaf");;\n'}
+[2.397938] (nodes) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.397992] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialNode::process_rx_buffer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.398043] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:46:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krx_buffer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.398096] (nodes) StderrLine: {'line': b'   46 |         if (header_pos == \x1b[01;31m\x1b[Krx_buffer_\x1b[m\x1b[K.end()) {\n'}
+[2.398147] (nodes) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.398196] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:54:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krx_buffer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.398247] (nodes) StderrLine: {'line': b'   54 |         if (trailer_pos != \x1b[01;31m\x1b[Krx_buffer_\x1b[m\x1b[K.end()) {\n'}
+[2.398297] (nodes) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.398346] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialNode::send2serial(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.398396] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:74:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial_driver\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdrivers::serial_driver\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.398447] (nodes) StderrLine: {'line': b'   74 |         auto port=\x1b[01;31m\x1b[Kserial_driver\x1b[m\x1b[K->port();\n'}
+[2.398497] (nodes) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.398545] (nodes) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Kdrivers::serial_driver\x1b[m\x1b[K\n'}
+[2.398598] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/serial_driver/serial_driver.hpp:22\x1b[m\x1b[K,\n'}
+[2.398649] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:5\x1b[m\x1b[K:\n'}
+[2.398701] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/serial_driver/serial_port.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdrivers::serial_driver\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.398750] (nodes) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kserial_driver\x1b[m\x1b[K\n'}
+[2.398798] (nodes) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.414392] (-) TimerEvent: {}
+[2.514895] (-) TimerEvent: {}
+[2.615591] (-) TimerEvent: {}
+[2.716277] (-) TimerEvent: {}
+[2.816948] (-) TimerEvent: {}
+[2.917614] (-) TimerEvent: {}
+[3.018274] (-) TimerEvent: {}
+[3.118894] (-) TimerEvent: {}
+[3.219453] (-) TimerEvent: {}
+[3.320058] (-) TimerEvent: {}
+[3.420630] (-) TimerEvent: {}
+[3.521310] (-) TimerEvent: {}
+[3.621924] (-) TimerEvent: {}
+[3.722331] (-) TimerEvent: {}
+[3.822903] (-) TimerEvent: {}
+[3.923602] (-) TimerEvent: {}
+[4.024309] (-) TimerEvent: {}
+[4.124856] (-) TimerEvent: {}
+[4.225619] (-) TimerEvent: {}
+[4.311801] (nodes) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/serial_node.dir/src/serial_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.311989] (nodes) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/serial_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.312404] (nodes) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.314469] (nodes) CommandEnded: {'returncode': 2}
+[4.324324] (nodes) JobEnded: {'identifier': 'nodes', 'rc': 2}
+[4.325695] (-) TimerEvent: {}
+[4.334844] (-) EventReactorShutdown: {}

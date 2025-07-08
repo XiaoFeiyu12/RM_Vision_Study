@@ -1,0 +1,11 @@
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes/CMakeFiles/uninstall.dir
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes/CMakeFiles/nodes_uninstall.dir
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes/CMakeFiles/serial_node.dir
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes/CMakeFiles/publisher_node.dir
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes/CMakeFiles/test.dir
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes/CMakeFiles/edit_cache.dir
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes/CMakeFiles/rebuild_cache.dir
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes/CMakeFiles/list_install_components.dir
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes/CMakeFiles/install.dir
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes/CMakeFiles/install/local.dir
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes/CMakeFiles/install/strip.dir

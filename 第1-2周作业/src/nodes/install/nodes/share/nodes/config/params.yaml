@@ -1,0 +1,6 @@
+serial_node:
+  ros__parameters:
+    device_name: "/dev/pts/2"
+    baud_rate: 115200
+    frame_header: 0xAA    # 十六进制值
+    frame_trailer: 0x55

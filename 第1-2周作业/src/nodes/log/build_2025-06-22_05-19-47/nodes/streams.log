@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes -- -j4 -l4
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[0.068s] [ 50%] Built target publisher_node
+[0.084s] [ 75%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o[0m
+[7.031s] [100%] [32m[1mLinking CXX executable serial_node[0m
+[7.373s] [100%] Built target serial_node
+[7.383s] Invoked command in '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes -- -j4 -l4
+[7.394s] Invoking command in '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes
+[7.401s] -- Install configuration: ""
+[7.402s] -- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/lib/nodes/serial_node
+[7.408s] -- Set runtime path of "/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/lib/nodes/serial_node" to ""
+[7.408s] -- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/lib/nodes/publisher_node
+[7.410s] -- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/launch
+[7.410s] -- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/launch/launch.py
+[7.410s] -- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/config
+[7.410s] -- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/config/config.yaml
+[7.410s] -- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes
+[7.410s] -- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes
+[7.410s] -- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/environment/ament_prefix_path.sh
+[7.410s] -- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/environment/ament_prefix_path.dsv
+[7.411s] -- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/environment/path.sh
+[7.411s] -- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/environment/path.dsv
+[7.411s] -- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/local_setup.bash
+[7.413s] -- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/local_setup.sh
+[7.413s] -- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/local_setup.zsh
+[7.413s] -- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/local_setup.dsv
+[7.413s] -- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/package.dsv
+[7.414s] -- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/ament_index/resource_index/packages/nodes
+[7.414s] -- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/cmake/nodesConfig.cmake
+[7.414s] -- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/cmake/nodesConfig-version.cmake
+[7.414s] -- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/package.xml
+[7.414s] Invoked command in '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes

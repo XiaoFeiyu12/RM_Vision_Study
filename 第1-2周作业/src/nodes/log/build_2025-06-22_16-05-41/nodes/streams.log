@@ -1,0 +1,10 @@
+[0.012s] Invoking command in '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes -- -j4 -l4
+[0.063s] [ 50%] Built target publisher_node
+[0.067s] [ 75%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o[0m
+[2.872s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:110:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_trailer_[m[K’ does not name a type
+[2.872s]   110 |     uint8_t frame_trailer_;[01;31m[Kframe_trailer_[m[K;
+[2.872s]       |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.000s] gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76：CMakeFiles/serial_node.dir/src/serial_node.cpp.o] 错误 1
+[5.001s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/serial_node.dir/all] 错误 2
+[5.001s] gmake: *** [Makefile:146：all] 错误 2
+[5.003s] Invoked command in '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes -- -j4 -l4

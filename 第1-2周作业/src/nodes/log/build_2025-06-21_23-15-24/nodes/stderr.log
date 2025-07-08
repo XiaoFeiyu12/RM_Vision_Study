@@ -1,0 +1,8 @@
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:43:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kagrv[m[K’ was not declared in this scope; did you mean ‘[01m[Kargv[m[K’?
+   43 |     rclcpp::init(argc,[01;31m[Kagrv[m[K);
+      |                       [01;31m[K^~~~[m[K
+      |                       [32m[Kargv[m[K
+gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76：CMakeFiles/serial_node.dir/src/serial_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/serial_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

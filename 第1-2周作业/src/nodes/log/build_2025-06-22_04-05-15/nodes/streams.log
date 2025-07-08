@@ -1,0 +1,17 @@
+[0.012s] Invoking command in '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes -- -j4 -l4
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[0.074s] [ 50%] Built target publisher_node
+[0.084s] [ 75%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o[0m
+[2.197s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:[m[K In constructor ‘[01m[KSerialNode::SerialNode()[m[K’:
+[2.198s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:112:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kdev[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+[2.198s]   112 |         const std::string device_name=""/[01;31m[Kdev[m[K/pts/2"";
+[2.198s]       |                                          [01;31m[K^~~[m[K
+[2.198s]       |                                          [32m[Kdiv[m[K
+[2.200s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:112:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kpts[m[K’ was not declared in this scope; did you mean ‘[01m[Kputs[m[K’?
+[2.200s]   112 |         const std::string device_name=""/dev/[01;31m[Kpts[m[K/2"";
+[2.200s]       |                                              [01;31m[K^~~[m[K
+[2.200s]       |                                              [32m[Kputs[m[K
+[3.956s] gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76：CMakeFiles/serial_node.dir/src/serial_node.cpp.o] 错误 1
+[3.956s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/serial_node.dir/all] 错误 2
+[3.956s] gmake: *** [Makefile:146：all] 错误 2
+[3.959s] Invoked command in '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes -- -j4 -l4

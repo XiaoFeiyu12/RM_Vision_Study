@@ -1,0 +1,119 @@
+[0.012s] Invoking command in '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes -- -j4 -l4
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o[0m
+[2.590s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.591s]                  from [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:3[m[K:
+[2.591s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:[m[K In member function ‘[01m[Kvoid SerialNode::receive_from_serial()[m[K’:
+[2.591s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:22:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SerialNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.591s]    22 |             RCLCPP_WARN(this->[01;31m[Kgetlogger[m[K(),"串口打开失败，无法接收数据");
+[2.591s]       |                               [01;31m[K^~~~~~~~~[m[K
+[2.591s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:22:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SerialNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.591s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:22:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.591s]    22 |             [01;31m[KRCLCPP_WARN[m[K(this->getlogger(),"串口打开失败，无法接收数据");
+[2.591s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.591s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:22:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.591s]    22 |             [01;31m[KRCLCPP_WARN[m[K(this->getlogger(),"串口打开失败，无法接收数据");
+[2.591s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.591s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:22:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.591s]    22 |             [01;31m[KRCLCPP_WARN[m[K(this->getlogger(),"串口打开失败，无法接收数据");
+[2.591s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.591s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.592s]                  from [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:3[m[K:
+[2.592s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:22:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SerialNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.592s]    22 |             RCLCPP_WARN(this->[01;31m[Kgetlogger[m[K(),"串口打开失败，无法接收数据");
+[2.592s]       |                               [01;31m[K^~~~~~~~~[m[K
+[2.592s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:22:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SerialNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.592s]    22 |             RCLCPP_WARN(this->[01;31m[Kgetlogger[m[K(),"串口打开失败，无法接收数据");
+[2.592s]       |                               [01;31m[K^~~~~~~~~[m[K
+[2.592s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:28:57:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[2.592s]    28 |             std::vector<uint8_t> new_data=port->receive([01;31m[K1024[m[K); //接收数据
+[2.593s]       |                                                         [01;31m[K^~~~[m[K
+[2.593s]       |                                                         [01;31m[K|[m[K
+[2.593s]       |                                                         [01;31m[Kint[m[K
+[2.593s] In file included from [01m[K/opt/ros/humble/include/serial_driver/serial_driver.hpp:22[m[K,
+[2.593s]                  from [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:5[m[K:
+[2.593s] [01m[K/opt/ros/humble/include/serial_driver/serial_port.hpp:208:41:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Ksize_t drivers::serial_driver::SerialPort::receive(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+[2.593s]   208 |   size_t receive([01;36m[Kstd::vector<uint8_t> & buff[m[K);
+[2.593s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.593s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.593s]                  from [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:3[m[K:
+[2.593s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:38:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SerialNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.594s]    38 |             RCLCPP_ERROR(this->[01;31m[Kgetlogger[m[K(),"串口接收错误");;
+[2.594s]       |                                [01;31m[K^~~~~~~~~[m[K
+[2.594s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:38:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SerialNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.594s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:38:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.594s]    38 |             [01;31m[KRCLCPP_ERROR[m[K(this->getlogger(),"串口接收错误");;
+[2.594s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[2.594s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:38:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.594s]    38 |             [01;31m[KRCLCPP_ERROR[m[K(this->getlogger(),"串口接收错误");;
+[2.594s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[2.594s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:38:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.594s]    38 |             [01;31m[KRCLCPP_ERROR[m[K(this->getlogger(),"串口接收错误");;
+[2.594s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[2.594s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.595s]                  from [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:3[m[K:
+[2.595s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:38:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SerialNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.595s]    38 |             RCLCPP_ERROR(this->[01;31m[Kgetlogger[m[K(),"串口接收错误");;
+[2.595s]       |                                [01;31m[K^~~~~~~~~[m[K
+[2.595s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:38:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SerialNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.595s]    38 |             RCLCPP_ERROR(this->[01;31m[Kgetlogger[m[K(),"串口接收错误");;
+[2.595s]       |                                [01;31m[K^~~~~~~~~[m[K
+[2.596s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:[m[K In member function ‘[01m[Kvoid SerialNode::process_rx_buffer()[m[K’:
+[2.596s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:46:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_buffer_[m[K’ was not declared in this scope
+[2.597s]    46 |         if (header_pos == [01;31m[Krx_buffer_[m[K.end()) {
+[2.597s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[2.602s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:54:28:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_buffer_[m[K’ was not declared in this scope
+[2.602s]    54 |         if (trailer_pos != [01;31m[Krx_buffer_[m[K.end()) {
+[2.602s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[2.605s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:[m[K In member function ‘[01m[Kvoid SerialNode::send2serial(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.605s] [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:74:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_driver[m[K’ was not declared in this scope; did you mean ‘[01m[Kdrivers::serial_driver[m[K’?
+[2.605s]    74 |         auto port=[01;31m[Kserial_driver[m[K->port();
+[2.605s]       |                   [01;31m[K^~~~~~~~~~~~~[m[K
+[2.605s]       |                   [32m[Kdrivers::serial_driver[m[K
+[2.605s] In file included from [01m[K/opt/ros/humble/include/serial_driver/serial_driver.hpp:22[m[K,
+[2.605s]                  from [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:5[m[K:
+[2.605s] [01m[K/opt/ros/humble/include/serial_driver/serial_port.hpp:31:11:[m[K [01;36m[Knote: [m[K‘[01m[Kdrivers::serial_driver[m[K’ declared here
+[2.605s]    31 | namespace [01;36m[Kserial_driver[m[K
+[2.605s]       |           [01;36m[K^~~~~~~~~~~~~[m[K
+[4.541s] gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76：CMakeFiles/serial_node.dir/src/serial_node.cpp.o] 错误 1
+[4.541s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/serial_node.dir/all] 错误 2
+[4.541s] gmake: *** [Makefile:146：all] 错误 2
+[4.544s] Invoked command in '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes -- -j4 -l4

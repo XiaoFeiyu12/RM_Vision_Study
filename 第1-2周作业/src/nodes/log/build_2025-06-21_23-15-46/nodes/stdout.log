@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable serial_node[0m
+[100%] Built target serial_node
+-- Install configuration: ""
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/lib/nodes/serial_node
+-- Set runtime path of "/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/lib/nodes/serial_node" to ""
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/environment/ament_prefix_path.sh
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/environment/ament_prefix_path.dsv
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/environment/path.sh
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/environment/path.dsv
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/local_setup.bash
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/local_setup.sh
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/local_setup.zsh
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/local_setup.dsv
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/package.dsv
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/ament_index/resource_index/packages/nodes
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/cmake/nodesConfig.cmake
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/cmake/nodesConfig-version.cmake
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/package.xml

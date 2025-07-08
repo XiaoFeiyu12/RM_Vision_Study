@@ -1,0 +1,12 @@
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:[m[K In constructor ‘[01m[KSerialNode::SerialNode()[m[K’:
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:112:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kdev[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+  112 |         const std::string device_name=""/[01;31m[Kdev[m[K/pts/2"";
+      |                                          [01;31m[K^~~[m[K
+      |                                          [32m[Kdiv[m[K
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:112:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kpts[m[K’ was not declared in this scope; did you mean ‘[01m[Kputs[m[K’?
+  112 |         const std::string device_name=""/dev/[01;31m[Kpts[m[K/2"";
+      |                                              [01;31m[K^~~[m[K
+      |                                              [32m[Kputs[m[K
+gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76：CMakeFiles/serial_node.dir/src/serial_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/serial_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

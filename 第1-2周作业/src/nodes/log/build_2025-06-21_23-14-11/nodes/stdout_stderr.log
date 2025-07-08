@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o[0m
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:[m[K In constructor ‘[01m[KSerialNode::SerialNode()[m[K’:
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   34 |         [01;31m[Ktimer_[m[K=this->create_wall_timer(5s,std::bind(&SerialNode::serial_rx_callback,this));
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Ktimer_t[m[K
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:34:40:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   34 |         timer_=this->create_wall_timer([01;31m[K5s[m[K,std::bind(&SerialNode::serial_rx_callback,this));
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:41:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kagv[m[K’ was not declared in this scope; did you mean ‘[01m[Kargv[m[K’?
+   41 |     rclcpp::init(argc,[01;31m[Kagv[m[K);
+      |                       [01;31m[K^~~[m[K
+      |                       [32m[Kargv[m[K
+gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76：CMakeFiles/serial_node.dir/src/serial_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/serial_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

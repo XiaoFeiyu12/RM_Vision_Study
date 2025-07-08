@@ -1,0 +1,39 @@
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTimeBase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KTimerBase[m[K’?
+   23 |     rclcpp::[01;31m[KTimeBase[m[K::SharedPtr timer_pub;
+      |             [01;31m[K^~~~~~~~[m[K
+      |             [32m[KTimerBase[m[K
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:[m[K In constructor ‘[01m[KSerialNode::SerialNode()[m[K’:
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:32:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kstdmsgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd_msgs[m[K’?
+   32 |         serial_tx_sub_=this->create_subscription<[01;31m[Kstdmsgs[m[K::msg::String>("topic",10,std::bind(&SerialNode::serial_tx_callback,this,std::placeholders::_1));
+      |                                                  [01;31m[K^~~~~~~[m[K
+      |                                                  [32m[Kstd_msgs[m[K
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:32:30:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   32 |         serial_tx_sub_=this->[01;31m[Kcreate_subscription<stdmsgs::msg::String>[m[K("topic",10,std::bind(&SerialNode::serial_tx_callback,this,std::placeholders::_1));
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:32:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSerialNode::create_subscription<<expression error> >(const char [6], int, std::_Bind_helper<false, void (SerialNode::*)(std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >) const, SerialNode*, const std::_Placeholder<1>&>::type)[m[K’
+   32 |         serial_tx_sub_=[01;31m[Kthis->create_subscription<stdmsgs::msg::String>("topic",10,std::bind(&SerialNode::serial_tx_callback,this,std::placeholders::_1))[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:32:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |         serial_tx_sub_=[01;31m[Kthis->create_subscription<stdmsgs::msg::String>("topic",10,std::bind(&SerialNode::serial_tx_callback,this,std::placeholders::_1))[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   34 |         [01;31m[Ktimer_pub[m[K=this->create_wall_timer(5s,std::bind(&PublisherNode::serial_rx_callback,this));
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Ktimer_t[m[K
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:34:43:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   34 |         timer_pub=this->create_wall_timer([01;31m[K5s[m[K,std::bind(&PublisherNode::serial_rx_callback,this));
+      |                                           [01;31m[K^~[m[K
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:34:57:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisherNode[m[K’ has not been declared
+   34 |         timer_pub=this->create_wall_timer(5s,std::bind(&[01;31m[KPublisherNode[m[K::serial_rx_callback,this));
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76：CMakeFiles/serial_node.dir/src/serial_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/serial_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

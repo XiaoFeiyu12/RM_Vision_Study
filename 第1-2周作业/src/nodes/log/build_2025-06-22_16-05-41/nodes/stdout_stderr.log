@@ -1,0 +1,8 @@
+[ 50%] Built target publisher_node
+[ 75%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o[0m
+[01m[K/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/src/serial_node.cpp:110:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_trailer_[m[K’ does not name a type
+  110 |     uint8_t frame_trailer_;[01;31m[Kframe_trailer_[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76：CMakeFiles/serial_node.dir/src/serial_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/serial_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

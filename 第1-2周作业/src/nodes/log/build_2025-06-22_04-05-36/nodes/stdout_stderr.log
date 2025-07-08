@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[ 50%] Built target publisher_node
+[ 75%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable serial_node[0m
+[100%] Built target serial_node
+-- Install configuration: ""
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/lib/nodes/serial_node
+-- Set runtime path of "/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/lib/nodes/serial_node" to ""
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/lib/nodes/publisher_node
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/environment/ament_prefix_path.sh
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/environment/path.sh
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/environment/path.dsv
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/local_setup.bash
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/local_setup.sh
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/local_setup.zsh
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/local_setup.dsv
+-- Installing: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/package.dsv
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/ament_index/resource_index/packages/nodes
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/cmake/nodesConfig.cmake
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/cmake/nodesConfig-version.cmake
+-- Up-to-date: /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes/share/nodes/package.xml

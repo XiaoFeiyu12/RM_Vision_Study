@@ -1,0 +1,2 @@
+Invoking command in '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes -DCMAKE_INSTALL_PREFIX=/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes
+Invoked command in '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes -DCMAKE_INSTALL_PREFIX=/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes

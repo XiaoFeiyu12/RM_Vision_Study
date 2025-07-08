@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000452] (nodes) JobQueued: {'identifier': 'nodes', 'dependencies': OrderedDict()}
+[0.000512] (nodes) JobStarted: {'identifier': 'nodes'}
+[0.007393] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'cmake'}
+[0.008231] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'build'}
+[0.009098] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes', '--', '-j4', '-l4'], 'cwd': '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'xiaofeiyu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xiaofeiyu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1058'), ('SYSTEMD_EXEC_PID', '1218'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2010'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xiaofeiyu'), ('JOURNAL_STREAM', '8:20655'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xiaofeiyu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xiaofeiyu-virtual-machine:@/tmp/.ICE-unix/1168,unix/xiaofeiyu-virtual-machine:/tmp/.ICE-unix/1168'), ('INVOCATION_ID', '40f619827d3442c19ce560f9ad39da45'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H8UO82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6b4d8dede2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes:/opt/ros/humble')]), 'shell': False}
+[0.049181] (nodes) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_node\x1b[0m\n'}
+[0.063792] (nodes) StdoutLine: {'line': b'[ 50%] Built target publisher_node\n'}
+[0.074444] (nodes) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o\x1b[0m\n'}
+[0.100047] (-) TimerEvent: {}
+[0.200489] (-) TimerEvent: {}
+[0.300971] (-) TimerEvent: {}
+[0.401392] (-) TimerEvent: {}
+[0.502742] (-) TimerEvent: {}
+[0.603441] (-) TimerEvent: {}
+[0.703927] (-) TimerEvent: {}
+[0.804530] (-) TimerEvent: {}
+[0.904880] (-) TimerEvent: {}
+[1.005279] (-) TimerEvent: {}
+[1.105617] (-) TimerEvent: {}
+[1.206229] (-) TimerEvent: {}
+[1.307349] (-) TimerEvent: {}
+[1.408493] (-) TimerEvent: {}
+[1.508896] (-) TimerEvent: {}
+[1.609278] (-) TimerEvent: {}
+[1.709587] (-) TimerEvent: {}
+[1.809949] (-) TimerEvent: {}
+[1.910419] (-) TimerEvent: {}
+[2.010887] (-) TimerEvent: {}
+[2.111250] (-) TimerEvent: {}
+[2.207916] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSerialNode::SerialNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.208106] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:112:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.208168] (nodes) StderrLine: {'line': b'  112 |         declare_parameter<\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K>("device_name","/dev/pts/2")\n'}
+[2.208223] (nodes) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.208275] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:112:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[2.208326] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:39\x1b[m\x1b[K,\n'}
+[2.208376] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.208427] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stringfwd.h:79:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.208481] (nodes) StderrLine: {'line': b'   79 |   typedef basic_string<char>    \x1b[01;36m\x1b[Kstring\x1b[m\x1b[K;\n'}
+[2.208530] (nodes) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.208581] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.208630] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string:67:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::string\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.208702] (nodes) StderrLine: {'line': b'   67 |     using \x1b[01;36m\x1b[Kstring\x1b[m\x1b[K    = basic_string<char>;\n'}
+[2.208752] (nodes) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.208801] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:112:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSerialNode::declare_parameter<<expression error> >(const char [12], const char [11])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.208852] (nodes) StderrLine: {'line': b'  112 |         \x1b[01;31m\x1b[Kdeclare_parameter<string>("device_name","/dev/pts/2")\x1b[m\x1b[K\n'}
+[2.208900] (nodes) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.208949] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.208997] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.209045] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.209096] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.209145] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.209195] (nodes) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[2.209244] (nodes) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.209292] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.209340] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:112:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.209390] (nodes) StderrLine: {'line': b'  112 |         \x1b[01;31m\x1b[Kdeclare_parameter<string>("device_name","/dev/pts/2")\x1b[m\x1b[K\n'}
+[2.209438] (nodes) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.209485] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.209533] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.209582] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.209630] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:3\x1b[m\x1b[K:\n'}
+[2.209686] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.209737] (nodes) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[2.209785] (nodes) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.209832] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.209930] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:112:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.209983] (nodes) StderrLine: {'line': b'  112 |         \x1b[01;31m\x1b[Kdeclare_parameter<string>("device_name","/dev/pts/2")\x1b[m\x1b[K\n'}
+[2.210035] (nodes) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.210102] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/src/serial_node.cpp:118:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdevice_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.210156] (nodes) StderrLine: {'line': b'  118 |         get_parameter("device_name",\x1b[01;31m\x1b[Kdevice_name\x1b[m\x1b[K);\n'}
+[2.210208] (nodes) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.211799] (-) TimerEvent: {}
+[2.312294] (-) TimerEvent: {}
+[2.413218] (-) TimerEvent: {}
+[2.514076] (-) TimerEvent: {}
+[2.614632] (-) TimerEvent: {}
+[2.715244] (-) TimerEvent: {}
+[2.815806] (-) TimerEvent: {}
+[2.916263] (-) TimerEvent: {}
+[3.016621] (-) TimerEvent: {}
+[3.116917] (-) TimerEvent: {}
+[3.217558] (-) TimerEvent: {}
+[3.318174] (-) TimerEvent: {}
+[3.420536] (-) TimerEvent: {}
+[3.520924] (-) TimerEvent: {}
+[3.621512] (-) TimerEvent: {}
+[3.722106] (-) TimerEvent: {}
+[3.822659] (-) TimerEvent: {}
+[3.923594] (-) TimerEvent: {}
+[4.013514] (nodes) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/serial_node.dir/src/serial_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.014047] (nodes) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/serial_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.014129] (nodes) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.016505] (nodes) CommandEnded: {'returncode': 2}
+[4.023771] (-) TimerEvent: {}
+[4.026794] (nodes) JobEnded: {'identifier': 'nodes', 'rc': 2}
+[4.037295] (-) EventReactorShutdown: {}

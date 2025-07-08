@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000275] (nodes) JobQueued: {'identifier': 'nodes', 'dependencies': OrderedDict()}
+[0.000775] (nodes) JobStarted: {'identifier': 'nodes'}
+[0.008400] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'cmake'}
+[0.009163] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'build'}
+[0.009776] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes', '--', '-j4', '-l4'], 'cwd': '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'xiaofeiyu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xiaofeiyu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1058'), ('SYSTEMD_EXEC_PID', '1218'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2010'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xiaofeiyu'), ('JOURNAL_STREAM', '8:20655'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xiaofeiyu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xiaofeiyu-virtual-machine:@/tmp/.ICE-unix/1168,unix/xiaofeiyu-virtual-machine:/tmp/.ICE-unix/1168'), ('INVOCATION_ID', '40f619827d3442c19ce560f9ad39da45'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H8UO82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6b4d8dede2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes:/opt/ros/humble')]), 'shell': False}
+[0.058745] (nodes) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_node\x1b[0m\n'}
+[0.069150] (nodes) StdoutLine: {'line': b'[ 50%] Built target publisher_node\n'}
+[0.084527] (nodes) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o\x1b[0m\n'}
+[0.099811] (-) TimerEvent: {}
+[0.200119] (-) TimerEvent: {}
+[0.300770] (-) TimerEvent: {}
+[0.401414] (-) TimerEvent: {}
+[0.501935] (-) TimerEvent: {}
+[0.602496] (-) TimerEvent: {}
+[0.703668] (-) TimerEvent: {}
+[0.803945] (-) TimerEvent: {}
+[0.904928] (-) TimerEvent: {}
+[1.006191] (-) TimerEvent: {}
+[1.106686] (-) TimerEvent: {}
+[1.207176] (-) TimerEvent: {}
+[1.308123] (-) TimerEvent: {}
+[1.408601] (-) TimerEvent: {}
+[1.509371] (-) TimerEvent: {}
+[1.609884] (-) TimerEvent: {}
+[1.710294] (-) TimerEvent: {}
+[1.810694] (-) TimerEvent: {}
+[1.911194] (-) TimerEvent: {}
+[2.011515] (-) TimerEvent: {}
+[2.111870] (-) TimerEvent: {}
+[2.212384] (-) TimerEvent: {}
+[2.313187] (-) TimerEvent: {}
+[2.413489] (-) TimerEvent: {}
+[2.513907] (-) TimerEvent: {}
+[2.614364] (-) TimerEvent: {}
+[2.714855] (-) TimerEvent: {}
+[2.815349] (-) TimerEvent: {}
+[2.917770] (-) TimerEvent: {}
+[3.018066] (-) TimerEvent: {}
+[3.118597] (-) TimerEvent: {}
+[3.219282] (-) TimerEvent: {}
+[3.319834] (-) TimerEvent: {}
+[3.420258] (-) TimerEvent: {}
+[3.520833] (-) TimerEvent: {}
+[3.621199] (-) TimerEvent: {}
+[3.721825] (-) TimerEvent: {}
+[3.822881] (-) TimerEvent: {}
+[3.923810] (-) TimerEvent: {}
+[4.024402] (-) TimerEvent: {}
+[4.124954] (-) TimerEvent: {}
+[4.225439] (-) TimerEvent: {}
+[4.325943] (-) TimerEvent: {}
+[4.426431] (-) TimerEvent: {}
+[4.527008] (-) TimerEvent: {}
+[4.627525] (-) TimerEvent: {}
+[4.727952] (-) TimerEvent: {}
+[4.828358] (-) TimerEvent: {}
+[4.928725] (-) TimerEvent: {}
+[5.029243] (-) TimerEvent: {}
+[5.129816] (-) TimerEvent: {}
+[5.230362] (-) TimerEvent: {}
+[5.331029] (-) TimerEvent: {}
+[5.431643] (-) TimerEvent: {}
+[5.532227] (-) TimerEvent: {}
+[5.632929] (-) TimerEvent: {}
+[5.733416] (-) TimerEvent: {}
+[5.833940] (-) TimerEvent: {}
+[5.934538] (-) TimerEvent: {}
+[6.035135] (-) TimerEvent: {}
+[6.135690] (-) TimerEvent: {}
+[6.236327] (-) TimerEvent: {}
+[6.336862] (-) TimerEvent: {}
+[6.437142] (-) TimerEvent: {}
+[6.537713] (-) TimerEvent: {}
+[6.638824] (-) TimerEvent: {}
+[6.739232] (-) TimerEvent: {}
+[6.841899] (-) TimerEvent: {}
+[6.942225] (-) TimerEvent: {}
+[7.031561] (nodes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial_node\x1b[0m\n'}
+[7.042749] (-) TimerEvent: {}
+[7.143235] (-) TimerEvent: {}
+[7.243871] (-) TimerEvent: {}
+[7.345670] (-) TimerEvent: {}
+[7.374089] (nodes) StdoutLine: {'line': b'[100%] Built target serial_node\n'}
+[7.384053] (nodes) CommandEnded: {'returncode': 0}
+[7.384786] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'install'}
+[7.393828] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes'], 'cwd': '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'xiaofeiyu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xiaofeiyu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1058'), ('SYSTEMD_EXEC_PID', '1218'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2010'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xiaofeiyu'), ('JOURNAL_STREAM', '8:20655'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xiaofeiyu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xiaofeiyu-virtual-machine:@/tmp/.ICE-unix/1168,unix/xiaofeiyu-virtual-machine:/tmp/.ICE-unix/1168'), ('INVOCATION_ID', '40f619827d3442c19ce560f9ad39da45'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H8UO82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6b4d8dede2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/build/nodes'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/nodes:/opt/ros/humble')]), 'shell': False}
+[7.402027] (nodes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.402468] (nodes) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/lib/nodes/serial_node\n'}
+[7.408197] (nodes) StdoutLine: {'line': b'-- Set runtime path of "/home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/lib/nodes/serial_node" to ""\n'}
+[7.408673] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/lib/nodes/publisher_node\n'}
+[7.410556] (nodes) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/launch\n'}
+[7.410651] (nodes) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/launch/launch.py\n'}
+[7.410719] (nodes) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/config\n'}
+[7.410779] (nodes) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/config/config.yaml\n'}
+[7.410974] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes\n'}
+[7.411028] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes\n'}
+[7.411139] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/environment/ament_prefix_path.sh\n'}
+[7.411239] (nodes) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/environment/ament_prefix_path.dsv\n'}
+[7.411340] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/environment/path.sh\n'}
+[7.411658] (nodes) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/environment/path.dsv\n'}
+[7.411797] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/local_setup.bash\n'}
+[7.411853] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/local_setup.sh\n'}
+[7.413968] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/local_setup.zsh\n'}
+[7.414205] (nodes) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/local_setup.dsv\n'}
+[7.414305] (nodes) StdoutLine: {'line': b'-- Installing: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/package.dsv\n'}
+[7.414404] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/ament_index/resource_index/packages/nodes\n'}
+[7.414505] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/cmake/nodesConfig.cmake\n'}
+[7.414605] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/cmake/nodesConfig-version.cmake\n'}
+[7.414707] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofeiyu/\xe6\xa1\x8c\xe9\x9d\xa2/study/\xe7\xac\xac1-2\xe5\x91\xa8\xe4\xbd\x9c\xe4\xb8\x9a/src/nodes/install/nodes/share/nodes/package.xml\n'}
+[7.415060] (nodes) CommandEnded: {'returncode': 0}
+[7.429341] (nodes) JobEnded: {'identifier': 'nodes', 'rc': 0}
+[7.430272] (-) EventReactorShutdown: {}

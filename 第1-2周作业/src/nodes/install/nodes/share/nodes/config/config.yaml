@@ -1,0 +1,6 @@
+/serial_node:            #可执行文件名称，也就是 CMakeList 里 add_executable()函数定义的可执行文件
+	ros__parameters:  #固定格式，要加这几句话
+		device_name: "/dev/pts/2"
+    baud_rate: 115200
+    frame_header: 0xAA    # 十六进制值
+    frame_trailer: 0x55

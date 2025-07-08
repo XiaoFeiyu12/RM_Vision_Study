@@ -1,0 +1,15 @@
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/ament_index/resource_index/package_run_dependencies/node
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/ament_index/resource_index/parent_prefix_path/node
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/node/environment/ament_prefix_path.sh
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/node/environment/ament_prefix_path.dsv
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/node/environment/path.sh
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/node/environment/path.dsv
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/node/local_setup.bash
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/node/local_setup.sh
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/node/local_setup.zsh
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/node/local_setup.dsv
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/node/package.dsv
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/ament_index/resource_index/packages/node
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/node/cmake/nodeConfig.cmake
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/node/cmake/nodeConfig-version.cmake
+/home/xiaofeiyu/桌面/study/第1-2周作业/src/nodes/install/node/share/node/package.xml
