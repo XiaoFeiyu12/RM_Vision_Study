@@ -1,8 +1,8 @@
-# Install script for directory: /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description
+# Install script for directory: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/install/mbot_description")
+  set(CMAKE_INSTALL_PREFIX "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,19 +44,19 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE DIRECTORY FILES
-    "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/urdf"
-    "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/meshes"
-    "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/launch"
-    "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/config"
+    "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/urdf"
+    "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/meshes"
+    "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/launch"
+    "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/config"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mbot_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mbot_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mbot_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mbot_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -64,7 +64,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description/environment" TYPE FILE FILES "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description/environment" TYPE FILE FILES "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -72,42 +72,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description/environment" TYPE FILE FILES "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description/environment" TYPE FILE FILES "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE FILE FILES "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE FILE FILES "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE FILE FILES "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE FILE FILES "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE FILE FILES "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE FILE FILES "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE FILE FILES "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE FILE FILES "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE FILE FILES "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE FILE FILES "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_index/share/ament_index/resource_index/packages/mbot_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_index/share/ament_index/resource_index/packages/mbot_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description/cmake" TYPE FILE FILES
-    "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_core/mbot_descriptionConfig.cmake"
-    "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_core/mbot_descriptionConfig-version.cmake"
+    "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_core/mbot_descriptionConfig.cmake"
+    "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/ament_cmake_core/mbot_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE FILE FILES "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mbot_description" TYPE FILE FILES "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -118,5 +118,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

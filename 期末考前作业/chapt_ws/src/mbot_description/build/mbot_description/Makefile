@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description
+CMAKE_SOURCE_DIR = /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description
+CMAKE_BINARY_DIR = /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/CMakeFiles /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/CMakeFiles /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

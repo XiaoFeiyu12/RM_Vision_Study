@@ -9,7 +9,7 @@ import os
 def generate_launch_description():
     pkg_share = FindPackageShare('mbot_description').find('mbot_description')
     
-    urdf_file = os.path.join(pkg_share, 'urdf', 'robot.urdf')
+    urdf_file = os.path.join(pkg_share, 'urdf', 'mbot_base.urdf')
     # rviz_config_file = os.path.join(pkg_share, 'config', 'mbot_urdf.rviz') 
 
     return LaunchDescription([

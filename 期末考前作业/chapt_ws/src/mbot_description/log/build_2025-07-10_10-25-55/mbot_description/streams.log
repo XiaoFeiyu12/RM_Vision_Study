@@ -1,0 +1,45 @@
+[0.010s] Invoking command in '/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description -DCMAKE_INSTALL_PREFIX=/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description
+[0.138s] -- The C compiler identification is GNU 11.4.0
+[0.228s] -- The CXX compiler identification is GNU 11.4.0
+[0.243s] -- Detecting C compiler ABI info
+[0.312s] -- Detecting C compiler ABI info - done
+[0.316s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.316s] -- Detecting C compile features
+[0.317s] -- Detecting C compile features - done
+[0.321s] -- Detecting CXX compiler ABI info
+[0.400s] -- Detecting CXX compiler ABI info - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.401s] -- Detecting CXX compile features
+[0.402s] -- Detecting CXX compile features - done
+[0.407s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.532s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.666s] -- Configuring done
+[0.671s] -- Generating done
+[0.671s] -- Build files have been written to: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description
+[0.675s] Invoked command in '/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description -DCMAKE_INSTALL_PREFIX=/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description
+[0.675s] Invoking command in '/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description -- -j4 -l4
+[0.704s] Invoked command in '/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description -- -j4 -l4
+[0.713s] Invoking command in '/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description
+[0.719s] -- Install configuration: ""
+[0.719s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/urdf
+[0.719s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/urdf/mbot_base.urdf
+[0.719s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/meshes
+[0.719s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/launch
+[0.720s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/launch/mbot_base.launch.py
+[0.720s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/config
+[0.720s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/ament_index/resource_index/package_run_dependencies/mbot_description
+[0.720s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/ament_index/resource_index/parent_prefix_path/mbot_description
+[0.720s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/environment/ament_prefix_path.sh
+[0.720s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/environment/ament_prefix_path.dsv
+[0.720s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/environment/path.sh
+[0.720s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/environment/path.dsv
+[0.720s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/local_setup.bash
+[0.720s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/local_setup.sh
+[0.720s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/local_setup.zsh
+[0.720s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/local_setup.dsv
+[0.721s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/package.dsv
+[0.721s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/ament_index/resource_index/packages/mbot_description
+[0.721s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/cmake/mbot_descriptionConfig.cmake
+[0.721s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/cmake/mbot_descriptionConfig-version.cmake
+[0.721s] -- Installing: /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/install/mbot_description/share/mbot_description/package.xml
+[0.722s] Invoked command in '/home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description

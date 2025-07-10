@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description
+CMAKE_SOURCE_DIR = /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description
+CMAKE_BINARY_DIR = /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description /home/xiaofeiyu/桌面/chapt_ws/src/mbot_description/build/mbot_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description /home/xiaofeiyu/桌面/study/RM_Vision_Study/期末考前作业/chapt_ws/src/mbot_description/build/mbot_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

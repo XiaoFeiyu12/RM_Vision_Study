@@ -1,4 +1,0 @@
-[console_scripts]
-gimbal_to_base = tf.gimbal_to_base:main
-tf_broadcaster = tf.tf_broadcaster:main
-

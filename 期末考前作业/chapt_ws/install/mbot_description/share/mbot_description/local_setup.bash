@@ -1,1 +1,0 @@
-/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description/ament_cmake_environment_hooks/local_setup.bash

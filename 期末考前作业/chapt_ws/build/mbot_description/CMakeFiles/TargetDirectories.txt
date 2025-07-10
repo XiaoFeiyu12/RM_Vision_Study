@@ -1,9 +1,0 @@
-/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description/CMakeFiles/uninstall.dir
-/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description/CMakeFiles/mbot_description_uninstall.dir
-/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description/CMakeFiles/test.dir
-/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description/CMakeFiles/edit_cache.dir
-/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description/CMakeFiles/rebuild_cache.dir
-/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description/CMakeFiles/list_install_components.dir
-/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description/CMakeFiles/install.dir
-/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description/CMakeFiles/install/local.dir
-/home/xiaofeiyu/桌面/chapt_ws/build/mbot_description/CMakeFiles/install/strip.dir
